@@ -10,6 +10,6 @@
 
     make (собрать модуль ядра по makefile)
     sudo dmesg -C (отчистить буфер ядра)
-    sudo insmod mod_core1.ko (загрузить модуль в ядро)
-    sudo rmmod mod_core1.ko (выгрузить модуль из ядра)
+    sudo insmod mod_core1.ko (загрузить модуль)
+    sudo rmmod mod_core1.ko (выгрузить модуль)
     sudo dmesg (прочитать буфер ядра)
