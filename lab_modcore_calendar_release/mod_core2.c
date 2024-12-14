@@ -1,8 +1,7 @@
 #include<linux/kernel.h>
 #include <linux/module.h> /* Needed by all modules */
 #include <linux/printk.h> /* Needed for pr_info() */
-#include<linux/proc_fs.h>
-#include<linux/uaccess.h>
+#include<linux/proc_fs.h> /* Necessary because we use the proc fs */
 #include <linux/version.h>
 #include <linux/time.h>
 #include <linux/timekeeping.h>
